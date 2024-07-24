@@ -10,6 +10,14 @@
     background-position: center;
 }
 
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+}
+
+
 .cabeçalho {
     background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
 }
