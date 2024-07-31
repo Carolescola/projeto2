@@ -30,3 +30,7 @@
 .container__imagem {
     padding: 1em;
 }
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+  }
