@@ -47,3 +47,7 @@
     padding: 1 em;
     background-color: var(--branco);
   }
+
+  .lista-menu_titulo {
+    color: var(--laranja);
+  }
