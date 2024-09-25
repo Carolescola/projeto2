@@ -24,7 +24,6 @@ h1 {
     background-color: white;
 }
 
-
 .cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
@@ -34,8 +33,6 @@ h1 {
     background-position: center;
 }
 
-
-
 .container {
     display: flex;
     align-items: center;
@@ -44,7 +41,6 @@ h1 {
 .container__imagem {
     padding: 1em;
 }
-
 
 @import url("styles/header.css");
 
@@ -116,12 +112,6 @@ h1 {
     display: none;
   }
 
-
-
-
-
-
-
   .banner {
     background: var(--azul-degrade);
     color: var(--branco);
@@ -138,7 +128,6 @@ h1 {
     font-weight: 500;
     margin: 1em 0;
   }
-
 
   .banner__pesquisa {
     background-color: transparent;
@@ -159,13 +148,6 @@ h1 {
     background-position: 1em;
   }
 
-
-
-
-
-
-
-
   .carrossel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
@@ -176,40 +158,20 @@ h1 {
     padding: 1em 0 0.5em 0;
   }
 
-
-
   .swiper-slide img {
     width: 100%;
   }
-
 
   .swiper-button-prev,
 .swiper-button-next {
   display: none;
 }
-
 
 .swiper-pagination {
     position: initial;
     margin: 0.5em 0;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .banner {
     background: var(--azul-degrade);
     color: var(--branco);
@@ -226,7 +188,6 @@ h1 {
     font-weight: 500;
     margin: 1em 0;
   }
-
 
   .banner__pesquisa {
     background-color: transparent;
@@ -260,12 +221,10 @@ h1 {
     width: 100%;
   }
 
-
   .swiper-button-prev,
 .swiper-button-next {
   display: none;
 }
-
 
 .swiper-pagination {
     position: initial;
@@ -324,7 +283,6 @@ h1 {
     padding: 1 em;
   }
 
-
   .lista-menu__titulo {
     color: var(--laranja);
     font-weight: 700;
@@ -342,12 +300,36 @@ h1 {
     display: none;
   }
 
-
-
-
   .descrição__titulo-livro {
     color: var(--azul-degrade);
     font-size: 18px;
     font-weight: 700;
     margin: 0.5em 0;
+  }
+
+
+
+
+
+  
+
+  .descrição__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+  }
+
+  .descrição__texto {
+    font-size: 14px;
+  }
+
+  .botões__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .botões__item {
+    margin: 0 0.5em;
   }
