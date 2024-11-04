@@ -34,7 +34,6 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5em;
-  list-style: none;
 
 }
 
@@ -74,6 +73,7 @@
 
 .botões__item {
   margin: 0 0.5em;
+  list-style: none;
 }
 
 
